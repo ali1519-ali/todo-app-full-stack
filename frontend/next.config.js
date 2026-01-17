@@ -6,10 +6,10 @@ const nextConfig = {
     unoptimized: true, // Disable image optimization for static export
   },
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://todo-full-stack-web-application-with-neon-db-main.vercel.app',
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://ali1519-ali.github.io/todo-app-full-stack/api', // Updated for GitHub Pages
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/todo-app-full-stack' : '', // Set basePath for GitHub Pages
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/todo-app-full-stack/' : '/', // Set asset prefix for GitHub Pages
+  basePath: '/todo-app-full-stack', // Set basePath for GitHub Pages - always set this for GitHub subfolder
+  assetPrefix: '/todo-app-full-stack/', // Set asset prefix for GitHub Pages - always set this for GitHub subfolder
 };
 
 module.exports = nextConfig;
