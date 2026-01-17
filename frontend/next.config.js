@@ -8,8 +8,7 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080', // Using localhost as default since GitHub Pages won't host the backend
   },
-  basePath: '/todo-app-full-stack', // Set basePath for GitHub Pages - always set this for GitHub subfolder
-  assetPrefix: '/todo-app-full-stack/', // Set asset prefix for GitHub Pages - always set this for GitHub subfolder
+  // basePath and assetPrefix removed since we're deploying to root
 };
 
 module.exports = nextConfig;
