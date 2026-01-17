@@ -1,0 +1,79 @@
+# Todo Full-Stack Web Application - Project Overview
+
+## Project Description
+
+The Todo Full-Stack Web Application is a modern, secure, and scalable task management system built using a spec-driven development approach. The application enables users to create, manage, and organize their tasks efficiently with a clean and intuitive interface.
+
+## Architecture Overview
+
+The application follows a clear separation of concerns with:
+
+- **Frontend**: Next.js application using the App Router for navigation and component organization
+- **Backend**: FastAPI RESTful API with comprehensive endpoints for data management
+- **Database**: Neon PostgreSQL for reliable data persistence
+- **Authentication**: Better Auth for secure user authentication and session management using JWT tokens
+
+## Core Features
+
+1. **User Authentication & Authorization**
+   - Secure sign-up and login functionality
+   - JWT-based session management
+   - User isolation to ensure data privacy
+
+2. **Todo Management**
+   - Create, read, update, and delete (CRUD) operations for todos
+   - Categorization and tagging of tasks
+   - Priority and due date settings
+
+3. **User Interface**
+   - Responsive design that works across devices
+   - Clean and intuitive user experience
+   - Real-time updates and notifications
+
+## Technology Stack
+
+- **Backend Framework**: FastAPI for high-performance API development
+- **Database ORM**: SQLModel for unified data modeling
+- **Database**: Neon PostgreSQL for cloud-native PostgreSQL experience
+- **Frontend Framework**: Next.js with App Router
+- **Authentication**: Better Auth for secure user management
+- **Styling**: Tailwind CSS or similar for responsive design
+- **State Management**: React Query or similar for data fetching and caching
+
+## Security Measures
+
+- JWT token-based authentication for all API requests
+- User data isolation to prevent unauthorized access
+- Input validation and sanitization
+- Secure session management
+- Protection against common vulnerabilities (XSS, CSRF, etc.)
+
+## Development Principles
+
+This project strictly follows the principles outlined in the project constitution:
+
+- Spec-driven development: All features must be defined in specifications before implementation
+- No manual coding without corresponding specs
+- Proper authentication and authorization on all endpoints
+- API isolation and security enforcement via JWT tokens
+
+## Project Structure
+
+```
+specs/
+├── overview.md          # This file
+├── [feature-name]/
+│   ├── spec.md          # Feature specification
+│   ├── plan.md          # Implementation plan
+│   └── tasks.md         # Detailed implementation tasks
+```
+
+## Getting Started
+
+For information on setting up the development environment and contributing to the project, see the quickstart documentation that will be created during the initial setup phase.
+
+## Future Enhancements
+
+Potential future features may include:
+- Collaborative task management
+- Advanced fil

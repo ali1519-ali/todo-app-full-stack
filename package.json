@@ -1,0 +1,14 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Todo backend application",
+  "main": "src/main.py",
+  "scripts": {
+    "start": "python -m src.main",
+    "dev": "python -m src.main",
+    "railway-start": "uvicorn src.main:app --host 0.0.0.0 --port $PORT"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
